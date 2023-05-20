@@ -1,198 +1,44 @@
-.rounded-circle-1{ 
-    vertical-align: middle;
-    border-radius: 40%;
-    padding: 10px;
-    border-color: rgb(58, 27, 80);
-    height: 200px;
-    font-weight: bold;
-    width: 250px;
-    text-align: center;
-    border: 5px solid rgb(58, 27, 80);
-    margin: 5px auto;   
+ body{
+    font-family: "Open Sans", sans-serif;
+    padding: auto;
+ }
+
+ h1,h2,h3 {
+    font-family: "Lobster", cursive;
+    display: block;
+ }
+ h2 {
+    color: #3046C5;
+}
+header h2 {
+    color: #CEC8FF;
 }
 
+ .customHeader{
+    color: #fff;
+    }
 
-.rounded-circle-2{ 
-    vertical-align: middle;
-    border-radius: 40%;
-    padding: 10px;
-    color:aliceblue;
-    height: 200px;
-    font-weight: bold;
-    width: 250px;
-    text-align: center;
-    border: 5px solid aliceblue;
-    float: right;
-    margin: auto;
-    text-shadow: 4px 4px 6px #0a8541;
-}
-
-.rounded-circle-3{ 
-    vertical-align: middle;
-    border-radius: 40%;
-    padding: 10px;
-    color:aliceblue;
-    height: 170px;
-    font-weight: bold;
-    width: 450px;
-    text-align:inherit;
-    border: 5px solid rgb(58, 27, 80);
-    float: center;
-    margin: 5px auto;    
-    text-shadow: 4px 4px 6px #159134;
-}
-
-.rounded-circle-4{ 
-    vertical-align: middle;
-    border-radius: 40%;
-    padding: 10px;
-    border-color: aliceblue;;
-    height: 200px;
-    font-weight: bold;
-    width: 250px;
-    text-align: center;
-    border: 5px solid aliceblue;;
-    margin: 5px auto;    
-    text-shadow: 4px 4px 6px #2f722f;
-}
-
-
-.rainbow-text-1 {
-    background: linear-gradient(to right, #d4110e, #160436, #164f7a, #28484d, #09310b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-  }
-
-
-
+    
 .jumbotron {
     padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
 }
-
+    
+ footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+  
 .row-content {
-    padding: 10px;
-    vertical-align: middle;
-    text-align: center;
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
 }
 
-.row-content-2 {
-    padding: 10px;
-    vertical-align:top;
-    text-align: right;
+.row-content-bottom {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: left;
 }
-
-
-
-.justify-content-center{
-    vertical-align: middle;
-}
-
-h1 {
-    font-family: 'Gloria Hallelujah';
-    font-style:oblique;
-    font-weight: 400;
-    font-size:xxx-large;
-    color:aliceblue;;
-    text-align: center;
-    float:left;
-}
-
-h2{
-    text-align: center;
-    font-family: 'Gloria Hallelujah';
-    font-style:oblique;
-    font-weight: 400;
-    font-size:xxx-large;
-    color:darkslategrey;
-}
-
-h3{
-    text-align: center;
-    font-family: 'Gloria Hallelujah';
-    font-style:oblique;
-    font-weight: 400;
-    font-size:xxx-large;
-    color:darkslategrey;
-    float:inline;
-}
-
-
-
-h4 {
-    text-align: center;
-    font-family: 'Gloria Hallelujah';
-    font-style:oblique;
-    font-weight: 400;
-    font-size:xxx-large;
-    color:darkslategrey;
-    float:inline-end;
-}
-
-
-.text{
-    font-family:'Pacifico';
-    font-style:oblique;
-    font-size:xxx-large;
-    color:rgb(2, 3, 15);
-    text-align: center;
-    float:inherit;
-    text-shadow: 4px 4px 6px #30005e;
-}
-
-.text-1{
-    font-family:'Pacifico';
-    font-style:oblique;
-    font-size:xxx-large;
-    color: rgb(2, 3, 2);
-    text-align: center;
-    float:inherit;
-    text-shadow: 4px 4px 6px #721735;
-}
-
-.social{
-    float: right;
-    vertical-align:auto;
-    text-align: center;
-    font: sans-serif bolder;
-    font-size: medium;
-    font-style: italic;
-}
-
-.links{
-    float: left;
-    vertical-align:auto;
-    text-align: center;
-    font: sans-serif bolder;
-    font-size: medium;
-    font-style: italic;
-}
-
-.tel{
-    float:inline-start;
-    vertical-align:auto;
-    text-align: center;
-    font: sans-serif bolder;
-    font-size: medium;
-    font-style: italic;
-}
-.title{
-    font: sans-serif;
-    font-size: large;
-    color: #f5f8f8;
-    margin: auto;
-}
-
-.title1{
-    margin: auto;
-    font: sans-serif;
-    font-size: large;
-    color: #f8f8f8; 
-}
-.titleTel{
-    margin: auto;
-    font: bolder;
-    font-size: x-large;
-    color: #f5fffd; 
-    text-shadow: 4px 4px 6px #2f722f;
-}
+ 
