@@ -10,7 +10,9 @@
  h2 {
     color: #3046C5;
  }
-
+ header h2 {
+    color: #CEC8FF;
+}
     
 .jumbotron {
     margin: 0;
