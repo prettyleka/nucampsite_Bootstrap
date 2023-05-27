@@ -9,14 +9,7 @@
  }
  h2 {
     color: #3046C5;
-}
-header h2 {
-    color: #CEC8FF;
-}
-
- .customHeader{
-    color: #fff;
-    }
+ }
 
     
 .jumbotron {
@@ -35,12 +28,6 @@ header h2 {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
-}
-
-.row-content-bottom {
-    padding-top: 10%;
-    padding-bottom: 5%;
-    text-align: left;
 }
 
 .navbar {
