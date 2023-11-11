@@ -1,0 +1,185 @@
+repo_name: prettyleka/nucampsite_Bootstrap
+report_id: 503c4191867a2e75161e1edf3c101d45
+repo_type: Public
+timestamp: '2023-11-11T05:34:27+00:00'
+requested_by: prettyleka
+provider: github
+branch: master
+detected_tools_count: 13
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Valeria Basov
+  last_updated_on: 2023-05-23 20:57:05.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Valeria Basov
+  last_updated_on: 2023-05-15 21:39:13.000000000 Z
+- name: Nchan
+  description: A scalable, flexible pub/sub server for the modern web
+  website_url: https://nchan.io/
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/10894/nchan_icon.png
+  detection_source: package.json
+  last_updated_by: Valeria Basov
+  last_updated_on: 2023-06-06 20:35:59.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Valeria Basov
+  last_updated_on: 2023-05-15 21:39:13.000000000 Z
+- name: copyfiles
+  description: Copy some files
+  package_url: https://www.npmjs.com/copyfiles
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16453/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Valeria Basov
+  last_updated_on: 2023-06-06 20:35:59.000000000 Z
+- name: font-awesome
+  description: The iconic font and CSS framework
+  package_url: https://www.npmjs.com/font-awesome
+  version: 4.7.0
+  license: OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16160/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Valeria Basov
+  last_updated_on: 2023-06-06 20:35:59.000000000 Z
+- name: lite-server
+  description: Lightweight development node server for serving a web app
+  package_url: https://www.npmjs.com/lite-server
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16577/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Valeria Basov
+  last_updated_on: 2023-06-06 20:35:59.000000000 Z
+  vulnerabilities:
+  - name: lite-server vulnerable to Denial of Service
+    cve_id: CVE-2022-25940
+    cve_url: https://github.com/advisories/GHSA-89w7-5q45-r53w
+    detected_date: Dec 21
+    severity: high
+    first_patched: 
+- name: onchange
+  description: Use glob patterns to watch file sets and run a command when anything
+    is added
+  package_url: https://www.npmjs.com/onchange
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16706/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Valeria Basov
+  last_updated_on: 2023-06-06 20:35:59.000000000 Z
+- name: parallelshell
+  description: Invoke multiple commands, running in parallel
+  package_url: https://www.npmjs.com/parallelshell
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17063/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Valeria Basov
+  last_updated_on: 2023-06-06 20:35:59.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Valeria Basov
+  last_updated_on: 2023-05-15 21:39:13.000000000 Z
+- name: sass
+  description: A pure JavaScript implementation of Sass
+  package_url: https://www.npmjs.com/sass
+  version: 1.62.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Valeria Basov
+  last_updated_on: 2023-06-06 20:35:59.000000000 Z
